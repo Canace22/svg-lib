@@ -30,6 +30,9 @@
     <icon-base>
       <icon-close stroke="rgb(102, 100, 100)"></icon-close>
     </icon-base>
+    <icon-base>
+      <icon-setting fill="rgb(102, 100, 100)"></icon-setting>
+    </icon-base>
   </div>
 </template>
 
@@ -45,6 +48,7 @@ import IconCollect from './icons/IconCollect'
 import IconThanks from './icons/IconThanks'
 import IconArrowRight from './icons/IconArrowRight'
 import IconClose from './icons/IconClose'
+import IconSetting from './icons/IconSetting'
 
 export default {
   name: 'HelloWorld',
@@ -59,7 +63,8 @@ export default {
     IconCollect,
     IconThanks,
     IconArrowRight,
-    IconClose
+    IconClose,
+    IconSetting
   },
 }
 </script>
