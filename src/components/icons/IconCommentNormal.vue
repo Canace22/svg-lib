@@ -4,3 +4,8 @@
     fill-rule="evenodd"
   ></path>
 </template>
+<script>
+export default {
+  name: 'normalComment'
+}
+</script>

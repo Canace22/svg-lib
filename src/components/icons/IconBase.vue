@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'iconBase',
   props: {
     iconName: {
       type: String,
